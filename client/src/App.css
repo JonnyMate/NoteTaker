@@ -1,0 +1,50 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+button {
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  background-color: #f73c3c;
+  padding: 5px 20px;
+}
+
+.list-item {
+  display: block;
+  background-color: #f54242e0;
+  border-left: 10px solid #f73c3c;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.delete-note {
+  background-color: #e23b3b;
+}
+
+.delete-note:hover {
+  background-color: #df2b2b;
+  transition: 0.3s;
+}
+
+.add-note {
+  background-color: #444444;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+}
+
+.add-note:hover {
+  background-color: #2b2b2b;
+  transition: 0.3s;
+}
